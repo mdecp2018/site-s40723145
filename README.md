@@ -1,4 +1,4 @@
-# 40723145 Repositary link
+# 40723145 Personal website link
 https://mdecp2018.github.io/site-s40723145/content/index.html
 
 # 2018fall
