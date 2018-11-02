@@ -21,7 +21,10 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9"><vh>封面投影片</vh>
+<v t="leo.20181102154257.1" a="E"><vh>link</vh>
+<v t="leo.20181102154257.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20181010214824.1" a="E"><vh>投影片-1</vh>
@@ -363,6 +366,26 @@ make.start()
 <t tx="leo.20181010214824.2">* [CMSimfly](https://github.com/chiamingyen/cmsimfly)操作
 
 * [Onshape](https://www.onshape.com) 操作
+
+
+</t>
+<t tx="leo.20181102154257.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181102154257.2">## 40723145 網際簡報
+
+
+[個人網站](https://mdecp2018.github.io/site-s40723145/content/index.html)
+
+[簡報](https://mdecp2018.github.io/site-s40723145/reveal/index.html#/)
+
+[網誌](https://mdecp2018.github.io/site-s40723145/blog/index.html)
 
 
 </t>
