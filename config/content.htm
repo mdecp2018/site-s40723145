@@ -1,1 +1,197 @@
-<h1>Introduction</h1><p>2018 Fall 計算機程式與電腦輔助設計實習課程分組網站</p><p></p><p><a href="https://google.com.tw">google</a></p><h2>CMSimfly 網站</h2><p>各組必須自行更改 Config 中的網站標題, 且每次完成近端動態網頁編輯後, 以 generate_pages 按鈕, 將動態網頁資料轉為靜態網頁資料, 之後再新增、提交並推送到遠端倉儲.</p><h2>reveal 投影片</h2><p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/reveal.leo</p><p><iframe width="560" height="314" src="https://mdecp2018.github.io/site-s40723145/reveal/index.html#/"></iframe></p><h2>pelican 網誌</h2><p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/pelican.leo&nbsp;</p><p>各分組必須自行更改&nbsp;@edit pelicanconf.py 中的 AUTHOR 與 SITENAME</p><p>更改 @edit publishconf.py 中的 SITEURL</p><p></p><h1>Operate video</h1><p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p><h2>Week1</h2><p><iframe width="560" height="314" src="//www.youtube.com/embed/X_F-8L8Ii_s" allowfullscreen="allowfullscreen"></iframe></p><p>Step:</p><p>1.Link to mde.tw&rarr;i&rarr;week1.</p><p>2.Find the hyperlink of the 2018fall and then enter the link.</p><p>3."Git clone" the 2018fall URL to your own disk.</p><p>4.Set up the new reponsitary form Github website.</p><p>5.Copy the 2018fall's folder file except the file which was named the .git.</p><p>6.Paste the duplication to the site folder and then skip to replace the "Readme" file.</p><p>7."Git add ." all the files which you updated before.</p><p>8."Git commit" all the files which you "git add" before.</p><p>9."Git push" all the files which you "git commit" to your responsitary.</p><p>10.Input your username and the password to examine your identity.</p><p></p><h2>Week2</h2><p><iframe width="560" height="314" src="//www.youtube.com/embed/gwXOg_Mjvjc" allowfullscreen="allowfullscreen"></iframe></p><p>Step:</p><p>1.Open Leo Editor.</p><p>2.File&rarr;open outline&rarr;find the "reveal.leo" and open it.</p><p>3.You can choose the existing slideshow and then modify directly or you can<br>copy the existing slideshow and then paste it to make a new slideshow.</p><p></p><p></p><p><span style="color: #ff0000;">Note:</span></p><p>1.plus one # before the title words can let it have the largest words.</p><p>2.If you on the step of modify the slideshow and then you want to see the<br>&nbsp; &nbsp; modification , you shoule reload the page first.</p><p></p><p><iframe width="560" height="314" src="//www.youtube.com/embed/MScPNKJMZCk" allowfullscreen="allowfullscreen"></iframe></p><p>Step:</p><p>1.Open Leo Editor.</p><p>2.File&rarr;open outline&rarr;find the "pelican.leo" and open it.</p><p>3.Find the list of remote and then choose "edit publishconf.py".</p><p>4.Modify the line 17&rarr;https://(classroom name).github.io/(your folder name)/blog'</p><p>5.Modift the line 33&rarr;"(classroom name)"</p><p>6.Add,commit,push the changes.</p><h2>Week3</h2><p></p><p><iframe width="560" height="314" src="//www.youtube.com/embed/bcgeYTwu4B0" allowfullscreen="allowfullscreen"></iframe></p><p></p><p>Step:</p><p>1.Make a new foler(test).</p><p>2.Input "git init" let the test folder start to be tracked by Github.</p><p>3.Make a blank txt file.</p><p>4.Input "my program" and then "git add"、"git commit" the modified files.</p><p>5.input "first function" in the txt and then "git add"、"git commit" the modified files.</p><p>6.Input "second finction" in the txt and then "git add"、"git commit" the modified files.</p><p>7.Input "git log" to check the process what you done before and memorize the beginning seven number of the first function.</p><p>8.Input "git cheakout" to let your head point to first function from second function.</p><p>9.Make a new branch in order to start another work.</p><p>10.Checkout master branch to dev branch.</p><p>11.Input "test function" in the txt and then "git add"、"git commit" the modified files.</p><p>12.Let the branch back to the master branch.</p><p>13.Merge the dev branch and the master branch.</p><p>14.Check the txt , if there have conflicts , determine the contents which you want and sort out it.</p><p>15.Make sure the action of merge was finished or not.</p><p>16.If it is successful and then "git add"、"git commit" the modified files.</p><h2>Week4</h2><p><iframe width="560" height="314" src="//www.youtube.com/embed/1cA5sL2LEMA" allowfullscreen="allowfullscreen"></iframe></p><p></p><p>Step:</p><p>1.Open Leo Editor.</p><p>2.File&rarr;open outline&rarr;find the "reveal.leo" and open it.</p><p>3.Choose the existing slideshow and then modify the content or paste a new slideshiw.</p><p>4.Type the words on the slideworks.(Ex: CMSimfly}</p><p>5.If you want to attach the hyperlink on the words ,you should add the symbol<br>of "[ ]"around the words. Ex:[CMSimfly]</p><p>6.Type the link behind the work and add the symbol of "( )" around the words.<br>Ex:(https://github.com/chiamingyen/cmsimfly)</p><p></p><p><br><span style="color: #ff0000;">Note:</span></p><p>1.The putton of space can't add between the words and the URL.</p><h2>Week5</h2><p><iframe width="560" height="314" src="//www.youtube.com/embed/R9IBLPiZcMQ" allowfullscreen="allowfullscreen"></iframe></p><pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 sys 模組import sys# 導入 keyword 模組import keyworddef helloWorld():    print("Hello" ," + World!")helloWorld()# 利用 sys 模組中的 version_info 印出 Python 版次print("Python version: ", sys.version_info)# 利用 keyword 模組中的 kwlist 印出關鍵字print("Python keywords: ", len(keyword.kwlist))</pre><p></p><p></p><pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 Ex1 原始碼a = 0def my_print(n, input_str):    print("以下將重覆列印 '", input_str + "' " + str(n) + "次")    for i in range(n):        print(i, input_str)my_print(5, "Hello World!")the_str = "開始學習 Python"num = input("請輸入要列印的次數!")my_print(int(num), the_str)a = a + 1print("(" + str(a) + ")", "_" * 25)def myfun():    yield 1    yield 2    yield 3for i in myfun():    print(i)x = iter(myfun())y = list(myfun())a = a + 1print("(" + str(a) + ")", "_" * 25)print(x.__next__())print(x.__next__())print(x.__next__())print(y)</pre><p></p><h2>Week6</h2><p><iframe width="560" height="314" src="//www.youtube.com/embed/kIbL1McW37Y" allowfullscreen="allowfullscreen"></iframe></p><p></p><p>Step:</p><p></p><p>1.Create a new reponsitary.</p><p>2.Go to command line and then make a directory .</p><p>3.Make the new directory "git init"</p><p>4.Follow the procedure to let the folder have the file of .git and README.md .</p><p></p><p></p><p><span style="color: #ff0000;">Note:</span></p><p>1.If your remote have the files however local does't have it , you must to merge it<br>before push it.</p><p>2.If you use "git checkout" back to previous procedure , you should remember to<br>have the branch indicate to the right branch.</p><p></p><h2>Week7</h2><p><iframe width="560" height="314" src="//www.youtube.com/embed/1HDJGP9waJ0" allowfullscreen="allowfullscreen"></iframe></p><p></p><p>Step:</p><p>1.Find out your ip number.</p><p>2.Key in your ip number into line 35's host.</p><p>3.Link the URL which you set up.</p><p>4.You can produce a code to set up words on your website.</p><p>5.Modify the content and save it.</p><p>6.You can see the changes on your website.</p><p></p><p></p><p><span style="color: #ff0000;">Note:</span></p><p>1.Don't input the same route name otherwise it can't be searched on the internet.</p><h1>Command</h1><p><span style="color: #ff0000;">#Basic command:</span></p><p>(disk):----------------- Change the current disk to the designated disk.</p><p>cd__(folder) ----------Change the directory you want which under the current folder or&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; disk.&nbsp;</p><p>dir---------------------Check all the folders and files in your current folder.</p><p>mkdir-----------------Set up the new folder in your current folder.</p><p>cls---------------------clean the command-line.</p><p>ipconfig /all----------Display all the setting of internet.</p><p><span style="color: #ff0000;">#Git command:</span></p><p>git add (file name)--Track the file which&nbsp; was modified&nbsp; before.</p><p>git push---------------Push the modified files to the remote.</p><p>git pull----------------Pull the files form remote to the local.</p><p>git commit-----------Commit the file which was added before.</p><p>git status-------------Check the&nbsp; file was modified or not. Also can use it to check after&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;input the"git add . " , "git commit" .</p><p>git init(folder name)----Begin tracking the folder which was just&nbsp; set up or untrack before.</p><p>git branch------------Check the branch where you work .</p><p>git branch(name)---Change the branch to the designated branch that you already have.</p><p>git checkout(7 numbers)---------Change the current condition to any commits you&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;submitted before.</p><p>git log-----------------Check the each commits which you submitted before.</p><p>git version-----------Check the current Github version.</p><p>git merge------------Merge the current branch with the branch which you want.</p><h1>Python manual</h1><p>計算機程式教材:&nbsp;&nbsp;<a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a>&nbsp;</p><p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p><h1>OnShape manual</h1><p><a href="https://www.onshape.com/">https://www.onshape.com/</a>&nbsp;</p><p>電腦輔助設計實習課程教材:&nbsp;<a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a>&nbsp;</p><h1>Fusion 360</h1><p><a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">https://www.autodesk.com/products/fusion-360/students-teachers-educators</a>&nbsp;</p>
+<h1>Introduction</h1><p>2018 Fall 計算機程式與電腦輔助設計實習課程分組網站</p><p><img src="/images/Computer_Program1_8244.jpg" width="323" height="209" alt=""></p><h2>CMSimfly 網站</h2>
+<p>各組必須自行更改 Config 中的網站標題, 且每次完成近端動態網頁編輯後, 以 generate_pages 按鈕, 將動態網頁資料轉為靜態網頁資料, 之後再新增、提交並推送到遠端倉儲.</p>
+<h2>reveal 投影片</h2>
+<p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/reveal.leo</p>
+<p><iframe width="560" height="314" src="https://mdecp2018.github.io/site-s40723145/reveal/index.html#/"></iframe></p>
+<h2>pelican 網誌</h2>
+<p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/pelican.leo&nbsp;</p>
+<p>各分組必須自行更改&nbsp;@edit pelicanconf.py 中的 AUTHOR 與 SITENAME</p>
+<p>更改 @edit publishconf.py 中的 SITEURL</p>
+<p></p>
+<h1>Operate video</h1>
+<p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>
+<h2>Week1</h2>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/X_F-8L8Ii_s" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Step:</p>
+<p>1.Link to mde.tw&rarr;i&rarr;week1.</p>
+<p>2.Find the hyperlink of the 2018fall and then enter the link.</p>
+<p>3."Git clone" the 2018fall URL to your own disk.</p>
+<p>4.Set up the new reponsitary form Github website.</p>
+<p>5.Copy the 2018fall's folder file except the file which was named the .git.</p>
+<p>6.Paste the duplication to the site folder and then skip to replace the "Readme" file.</p>
+<p>7."Git add ." all the files which you updated before.</p>
+<p>8."Git commit" all the files which you "git add" before.</p>
+<p>9."Git push" all the files which you "git commit" to your responsitary.</p>
+<p>10.Input your username and the password to examine your identity.</p>
+<p></p>
+<h2>Week2</h2>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/gwXOg_Mjvjc" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Step:</p>
+<p>1.Open Leo Editor.</p>
+<p>2.File&rarr;open outline&rarr;find the "reveal.leo" and open it.</p>
+<p>3.You can choose the existing slideshow and then modify directly or you can<br>copy the existing slideshow and then paste it to make a new slideshow.</p>
+<p></p>
+<p></p>
+<p><span style="color: #ff0000;">Note:</span></p>
+<p>1.plus one # before the title words can let it have the largest words.</p>
+<p>2.If you on the step of modify the slideshow and then you want to see the<br>&nbsp; &nbsp; modification , you shoule reload the page first.</p>
+<p></p>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/MScPNKJMZCk" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Step:</p>
+<p>1.Open Leo Editor.</p>
+<p>2.File&rarr;open outline&rarr;find the "pelican.leo" and open it.</p>
+<p>3.Find the list of remote and then choose "edit publishconf.py".</p>
+<p>4.Modify the line 17&rarr;https://(classroom name).github.io/(your folder name)/blog'</p>
+<p>5.Modift the line 33&rarr;"(classroom name)"</p>
+<p>6.Add,commit,push the changes.</p>
+<h2>Week3</h2>
+<p></p>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/bcgeYTwu4B0" allowfullscreen="allowfullscreen"></iframe></p>
+<p></p>
+<p>Step:</p>
+<p>1.Make a new foler(test).</p>
+<p>2.Input "git init" let the test folder start to be tracked by Github.</p>
+<p>3.Make a blank txt file.</p>
+<p>4.Input "my program" and then "git add"、"git commit" the modified files.</p>
+<p>5.input "first function" in the txt and then "git add"、"git commit" the modified files.</p>
+<p>6.Input "second finction" in the txt and then "git add"、"git commit" the modified files.</p>
+<p>7.Input "git log" to check the process what you done before and memorize the beginning seven number of the first function.</p>
+<p>8.Input "git cheakout" to let your head point to first function from second function.</p>
+<p>9.Make a new branch in order to start another work.</p>
+<p>10.Checkout master branch to dev branch.</p>
+<p>11.Input "test function" in the txt and then "git add"、"git commit" the modified files.</p>
+<p>12.Let the branch back to the master branch.</p>
+<p>13.Merge the dev branch and the master branch.</p>
+<p>14.Check the txt , if there have conflicts , determine the contents which you want and sort out it.</p>
+<p>15.Make sure the action of merge was finished or not.</p>
+<p>16.If it is successful and then "git add"、"git commit" the modified files.</p>
+<h2>Week4</h2>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/1cA5sL2LEMA" allowfullscreen="allowfullscreen"></iframe></p>
+<p></p>
+<p>Step:</p>
+<p>1.Open Leo Editor.</p>
+<p>2.File&rarr;open outline&rarr;find the "reveal.leo" and open it.</p>
+<p>3.Choose the existing slideshow and then modify the content or paste a new slideshiw.</p>
+<p>4.Type the words on the slideworks.(Ex: CMSimfly}</p>
+<p>5.If you want to attach the hyperlink on the words ,you should add the symbol<br>of "[ ]"around the words. Ex:[CMSimfly]</p>
+<p>6.Type the link behind the work and add the symbol of "( )" around the words.<br>Ex:(https://github.com/chiamingyen/cmsimfly)</p>
+<p><br><span style="color: #ff0000;">Note:</span></p>
+<p>1.The putton of space can't add between the words and the URL.</p>
+<h2>Week5</h2>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/R9IBLPiZcMQ" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Step:</p>
+<p>1.Link to <a href="http://mde.tw/cp2018/content/Python%20%E6%95%99%E6%9D%90.html">http://mde.tw/cp2018/content/Python%20%E6%95%99%E6%9D%90.html</a></p>
+<p>2.Try to show the quantities of keyword , can use the len( ) .</p>
+<p>3.Save as file.</p>
+<p>4.Open the SciTE and then open the file which you saved as before.</p>
+<p>5.Click "Go" to show the result.</p>
+<p>6.Go to your website and then choose the file where you want to upload.</p>
+<p>7.Click the button of edit and then choose the "Insert/Edit Code" .</p>
+<p>8.Paste the code and change the language to Python.</p>
+<p>9.Save the changes then you can see the code on your website.</p>
+<p></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 sys 模組
+import sys
+# 導入 keyword 模組
+import keyword
+
+def helloWorld():
+    print("Hello" ," + World!")
+
+helloWorld()
+
+# 利用 sys 模組中的 version_info 印出 Python 版次
+print("Python version: ", sys.version_info)
+# 利用 keyword 模組中的 kwlist 印出關鍵字
+print("Python keywords: ", len(keyword.kwlist))
+</pre>
+<p></p>
+<p></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 Ex1 原始碼
+a = 0
+def my_print(n, input_str):
+    print("以下將重覆列印 '", input_str + "' " + str(n) + "次")
+    for i in range(n):
+        print(i, input_str)
+
+my_print(5, "Hello World!")
+the_str = "開始學習 Python"
+num = input("請輸入要列印的次數!")
+my_print(int(num), the_str)
+a = a + 1
+print("(" + str(a) + ")", "_" * 25)
+
+def myfun():
+    yield 1
+    yield 2
+    yield 3
+
+for i in myfun():
+    print(i)
+
+x = iter(myfun())
+y = list(myfun())
+
+a = a + 1
+print("(" + str(a) + ")", "_" * 25)
+print(x.__next__())
+print(x.__next__())
+print(x.__next__())
+print(y)
+</pre>
+<p></p>
+<h2>Week6</h2>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/kIbL1McW37Y" allowfullscreen="allowfullscreen"></iframe></p>
+<p></p>
+<p>Step:</p>
+<p>1.Create a new reponsitary.</p>
+<p>2.Go to command line and then make a directory .</p>
+<p>3.Make the new directory "git init"</p>
+<p>4.Follow the procedure to let the folder have the file of .git and README.md .</p>
+<p></p>
+<p><span style="color: #ff0000;">Note:</span></p>
+<p>1.If your remote have the files however local does't have it , you must to merge it<br>before push it.</p>
+<p>2.If you use "git checkout" back to previous procedure , you should remember to<br>have the branch indicate to the right branch.</p>
+<p></p>
+<h2>Week7</h2>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/1HDJGP9waJ0" allowfullscreen="allowfullscreen"></iframe></p>
+<p></p>
+<p>Step:</p>
+<p>1.Find out your ip number.</p>
+<p>2.Key in your ip number into line 35's host.</p>
+<p>3.Link the URL which you set up.</p>
+<p>4.You can produce a code to set up words on your website.</p>
+<p>5.Modify the content and save it.</p>
+<p>6.You can see the changes on your website.</p>
+<p></p>
+<p><span style="color: #ff0000;">Note:</span></p>
+<p>1.Don't input the same route name otherwise it can't be searched on the internet.</p>
+<h1>Command</h1>
+<p><span style="color: #ff0000;">#Basic command:</span></p>
+<p>(disk):----------------- Change the current disk to the designated disk.</p>
+<p>cd__(folder) ----------Change the directory you want which under the current folder or&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; disk.&nbsp;</p>
+<p>dir---------------------Check all the folders and files in your current folder.</p>
+<p>mkdir-----------------Set up the new folder in your current folder.</p>
+<p>cls---------------------clean the command-line.</p>
+<p>ipconfig /all----------Display all the setting of internet.</p>
+<p><span style="color: #ff0000;">#Git command:</span></p>
+<p>git add (file name)--Track the file which&nbsp; was modified&nbsp; before.</p>
+<p>git push---------------Push the modified files to the remote.</p>
+<p>git pull----------------Pull the files form remote to the local.</p>
+<p>git commit-----------Commit the file which was added before.</p>
+<p>git status-------------Check the&nbsp; file was modified or not. Also can use it to check after&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;input the"git add . " , "git commit" .</p>
+<p>git init(folder name)----Begin tracking the folder which was just&nbsp; set up or untrack before.</p>
+<p>git branch------------Check the branch where you work .</p>
+<p>git branch(name)---Change the branch to the designated branch that you already have.</p>
+<p>git checkout(7 numbers)---------Change the current condition to any commits you&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;submitted before.</p>
+<p>git log-----------------Check the each commits which you submitted before.</p>
+<p>git version-----------Check the current Github version.</p>
+<p>git merge------------Merge the current branch with the branch which you want.</p>
+<h1>Python manual</h1>
+<p>計算機程式教材:&nbsp;&nbsp;<a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a>&nbsp;</p>
+<p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p>
+<h1>OnShape manual</h1>
+<p><a href="https://www.onshape.com/">https://www.onshape.com/</a>&nbsp;</p>
+<p>電腦輔助設計實習課程教材:&nbsp;<a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a>&nbsp;</p>
+<h1>Fusion 360</h1>
+<p><a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">https://www.autodesk.com/products/fusion-360/students-teachers-educators</a>&nbsp;</p>

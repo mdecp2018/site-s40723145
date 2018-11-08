@@ -2,7 +2,7 @@
   position: relative;
 }
 header{
-  background: #b3e2e6;
+  background: #ddb366;
   padding: 20px;
 }
 confmenu
@@ -33,7 +33,7 @@ confmenu li a
 	border-right: 1px solid #fff;
 }
 confmenu li a:hover {
-background: #383; 
+background: #ccc; 
 }
 
 nav {
@@ -61,7 +61,7 @@ ul#css3menu1 ul{
 	-webkit-transition:opacity 0.5s;
 	-o-transition:opacity 0.5s,visibility 0.5s;
 	transition:opacity 0.5s;
-	background-color:#A2D890;
+	background-color:#333;
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
